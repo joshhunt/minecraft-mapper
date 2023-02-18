@@ -16,14 +16,14 @@
  * Notes
  * =====
  *
- * 
+ *
  * This is a JavaScript file interpreted by Jint 3.x.
  * See https://github.com/sebastienros/jint for supported language features.
  *
- * 
+ *
  * 1. Boolean operators
  * --------------------
- * 
+ *
  *      Comma (",") between values means logical OR
  *      Space (" ") between values means logical AND
  *      Exclamation mark ("!") before a value means logical NOT
@@ -33,7 +33,7 @@
  *          "lava, water" means "lava" or "water" (matches minecraft:lava and minecraft:water)
  *          "*sand !red_sand" means "*sand*" and not "red_sand" (matches any vanilla block name ends with "sand" except "red_sand")
  *
- * 
+ *
  * 2. Double asterix
  * -----------------
  *
@@ -60,8 +60,10 @@ var STYLESHEET = {
         addFlora(b);
         addFauna(b);
 
+        addSculk(b);
+
         artificial.addAll(b);
-        
+
         addCrafting(b);
         addGlasses(b);
         addLights(b);
@@ -170,11 +172,10 @@ function addFlora(b) {
         b.tag("#mushroom").apply("#mushroom.brown, #mushroom.red");
         b.tag("#mushroom").apply("shroomlight");
         b.tag("#bush").apply("azalea,flowering_azalea,big_dripleaf,moss_block");
-        b.tag("#bamboo").apply("**bamboo");
     });
 
 
-    b.tag("#flora").natural().blocking().apply("*:cactus, *:sugar_cane, reeds, *:chorus_plant, *:reed");
+    b.tag("#flora").natural().blocking().apply("*:cactus, *:sugar_cane, reeds, *:chorus_plant, *:reed, *:bamboo");
 
     b.tag("#chorus").apply(["*:chorus_plant"]);
 
@@ -239,6 +240,8 @@ function addFauna(b) {
         b.tag("#coral.horn").apply("#corals *[coral_color:horn]");
         b.tag("#coral.dead").apply("#corals *[dead_bit:1]");
         */
+
+        b.tag("#frogspawn").natural().nonblocking().apply("frog_spawn");
     } else {
         b.tag("#corals").natural().nonblocking().apply(b => {
             b.tag("#coral").apply("**coral");
@@ -254,11 +257,18 @@ function addFauna(b) {
         b.tag("#coral.horn").apply("#corals *:*horn*");
         b.tag("#coral.dead").apply("#corals *:*dead*");
 
+        b.tag("#frogspawn").natural().nonblocking().apply("frogspawn");
     }
 
     b.tag("#fauna").apply("*:cobweb, *:web, *:*_nest, *:*_egg, sea_pickle, slime").natural().nonblocking();
     b.tag("#fauna").apply("#corals");
 }
+
+function addSculk(b) {
+    b.tag("#sculk").natural().blocking().apply("sculk, sculk_catalyst");
+    b.tag("#sculk").natural().nonblocking().apply("sculk_shrieker, sculk_vein");
+}
+
 
 class artificial {
 
@@ -279,6 +289,7 @@ class artificial {
             b.tag("#stairs").apply("**stairs"),
             b.tag("#pillar").apply("**pillar"),
             b.tag("#bricks").apply("**bricks"),
+            b.tag("#tiles").apply("**tiles"),
             b.tag("#wall").apply("**wall"),
             b.tag("#wood").apply("**wood, **hyphae")
         ]);
@@ -303,7 +314,9 @@ class artificial {
             b.tag("#oak").apply("*:oak_* !#natural"),
             b.tag("#spruce").apply("*:spruce_* !#natural"),
             b.tag("#crimson").apply("*:crimson_* !#natural"),
-            b.tag("#warped").apply("*:warped_* !#natural")
+            b.tag("#warped").apply("*:warped_* !#natural"),
+            b.tag("#mangrove").apply("*:mangrove_* !#natural"),
+            b.tag("#bamboo").apply("*:bamboo_* !#natural")
         ]);
 
         // todo bedrock
@@ -312,7 +325,7 @@ class artificial {
         b.tag("#wooden").apply("planks, trapdoor, fence");
 
         b.tag("#wooden").apply("*:*_wood !#natural, petrified_oak_slab");
-        
+
         b.tag("#artificial,-#natural").apply("#wooden");
 
         // Metal product materials
@@ -364,6 +377,10 @@ class artificial {
             masonryMaterialTags.push(b.tag(tagName).apply(pattern));
         }
 
+
+        b.tag("#masonry, #artificial, -#natural").apply("packed_mud");
+        b.tag("#masonry, #artificial, #deepslate, -#natural").apply("reinforced_deepslate");
+
         b.tag("#masonry, #artificial, -#natural").apply([
 
             // prefixes
@@ -374,10 +391,12 @@ class artificial {
             b.tag("#polished").apply("**polished_*"),
             b.tag("#cobbled").apply("**cobbled_*"),
             b.tag("#brick").apply("**brick_*"),
+            // TODO 1.19 mud_brick_*
             b.tag("#mossy").apply("**mossy_* !#natural"),
 
             // postfixes
             b.tag("#bricks").apply("*:*_bricks"),
+            b.tag("#tiles").apply("*:*_tiles"),
             b.tag("#tile").apply("*:*_tile"),
 
             // materials
@@ -405,6 +424,9 @@ function addLights(b) {
     b.tag("#light").apply("#torch").artificial().nonblocking();
     b.tag("#light").apply("**lamp, **lantern, seaLantern, lit_pumpkin").artificial().blocking();
     b.tag("#light").apply("**glowstone").natural().blocking();
+
+    b.tag("#froglight").apply("*_froglight").natural().blocking(); // pearlescent_froglight, verdant_froglight, ochre_froglight
+    b.tag("#light").apply("froglight");
 }
 
 function addCircuit(b) {
@@ -521,6 +543,7 @@ function addOtherArtificial(b) {
         b.tag("#concrete_powder").apply("**concrete_powder, concretePowder");
         b.tag("#wall").apply("*:*_wall");
         b.tag("#bricks").apply("*bricks");
+        b.tag("#tiles").apply("*tiles");
         b.tag("#wool").apply("**wool");
         b.tag("#bed").apply("*:*_bed");
         b.tag("#potted,-#flower").apply("*:potted_*");
