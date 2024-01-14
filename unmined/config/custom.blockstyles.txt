@@ -1,4 +1,4 @@
-﻿// Custom block colors
+// Custom block colors
 // ===================
 //
 //
@@ -52,4 +52,619 @@
 //
 
 
-minecraft:myblock = #ff0000
+
+//-------------colored Blocks--------------------
+//======Wool==========
+minecraft:wool[color:white] = #E2E5E6
+minecraft:wool[color:orange] = #E86801
+minecraft:wool[color:magenta] = #CA4FC0
+minecraft:wool[color:light_blue] = #289BCF
+minecraft:wool[color:yellow] = #F5B914
+minecraft:wool[color:lime] = #67B210
+minecraft:wool[color:pink] = #E5769B
+minecraft:wool[color:gray] = #434A4D
+minecraft:wool[color:silver] = #898980
+minecraft:wool[color:cyan] = #0D848E
+minecraft:wool[color:purple] = #8128B1
+minecraft:wool[color:blue] = #383EA7
+minecraft:wool[color:brown] = #7F4F2B
+minecraft:wool[color:green] = #4C611B
+minecraft:wool[color:red] = #991E1B
+minecraft:wool[color:black] = #15151A
+//======Carpet==========
+minecraft:carpet[color:white] = #E2E5E6
+minecraft:carpet[color:orange] = #E86801
+minecraft:carpet[color:magenta] = #CA4FC0
+minecraft:carpet[color:light_blue] = #289BCF
+minecraft:carpet[color:yellow] = #F5B914
+minecraft:carpet[color:lime] = #67B210
+minecraft:carpet[color:pink] = #E5769B
+minecraft:carpet[color:gray] = #434A4D
+minecraft:carpet[color:silver] = #898980
+minecraft:carpet[color:cyan] = #0D848E
+minecraft:carpet[color:purple] = #8128B1
+minecraft:carpet[color:blue] = #383EA7
+minecraft:carpet[color:brown] = #7F4F2B
+minecraft:carpet[color:green] = #4C611B
+minecraft:carpet[color:red] = #991E1B
+minecraft:carpet[color:black] = #15151A
+//======Powdered Concrete==========
+minecraft:concretePowder[color:white] = #D9DBDC
+minecraft:concretePowder[color:orange] = #DD790A
+minecraft:concretePowder[color:magenta] = #BD4FB5
+minecraft:concretePowder[color:light_blue] = #5FCAE1
+minecraft:concretePowder[color:yellow] = #EED64B
+minecraft:concretePowder[color:lime] = #8CC828
+minecraft:concretePowder[color:pink] = #E7A7BD
+minecraft:concretePowder[color:gray] = #484C50
+minecraft:concretePowder[color:silver] = #9D9D98
+minecraft:concretePowder[color:cyan] = #20969E
+minecraft:concretePowder[color:purple] = #8938B3
+minecraft:concretePowder[color:blue] = #3C3F9D
+minecraft:concretePowder[color:brown] = #7A5130
+minecraft:concretePowder[color:green] = #677D34
+minecraft:concretePowder[color:red] = #B23734
+minecraft:concretePowder[color:black] = #18181E
+//======Concrete==========
+minecraft:concrete[color:white] = #D1D7D8
+minecraft:concrete[color:orange] = #E26300
+minecraft:concrete[color:magenta] = #AA2DA0
+minecraft:concrete[color:light_blue] = #1F8BC9
+minecraft:concrete[color:yellow] = #F2B00D
+minecraft:concrete[color:lime] = #5DA910
+minecraft:concrete[color:pink] = #D76691
+minecraft:concrete[color:gray] = #34383C
+minecraft:concrete[color:silver] = #7F7F75
+minecraft:concrete[color:cyan] = #0D7788
+minecraft:concrete[color:purple] = #651A9E
+minecraft:concrete[color:blue] = #282A90
+minecraft:concrete[color:brown] = #613A1A
+minecraft:concrete[color:green] = #485B1F
+minecraft:concrete[color:red] = #901B1B
+minecraft:concrete[color:black] = #020307
+//======Stained Hardened Clay==========
+minecraft:hardened_clay = #945B43
+minecraft:stained_hardened_clay[color:white] = #CFAF9F
+minecraft:stained_hardened_clay[color:orange] = #9E4F1B
+minecraft:stained_hardened_clay[color:magenta] = #94556B
+minecraft:stained_hardened_clay[color:light_blue] = #6D6988
+minecraft:stained_hardened_clay[color:yellow] = #B8841D
+minecraft:stained_hardened_clay[color:lime] = #64732D
+minecraft:stained_hardened_clay[color:pink] = #A14C4D
+minecraft:stained_hardened_clay[color:gray] = #33211B
+minecraft:stained_hardened_clay[color:silver] = #856960
+minecraft:stained_hardened_clay[color:cyan] = #575A5A
+minecraft:stained_hardened_clay[color:purple] = #744052
+minecraft:stained_hardened_clay[color:blue] = #463658
+minecraft:stained_hardened_clay[color:brown] = #482A19
+minecraft:stained_hardened_clay[color:green] = #474E22
+minecraft:stained_hardened_clay[color:red] = #8B3527
+minecraft:stained_hardened_clay[color:black] = #1B0904
+//======Glazed Teracotta==========
+minecraft:white_glazed_terracotta = #D1D7D8
+minecraft:orange_glazed_terracotta = #F98117
+minecraft:magenta_glazed_terracotta = #C84DBE
+minecraft:light_blue_glazed_terracotta = #CAF3F9
+minecraft:yellow_glazed_terracotta = #FFF3C5
+minecraft:lime_glazed_terracotta = #80CD12
+minecraft:pink_glazed_terracotta = #F4B6CC
+minecraft:gray_glazed_terracotta = #9A9A9A
+minecraft:silver_glazed_terracotta = #D6D9DA
+minecraft:light_gray_glazed_terracotta = #D6D9DA
+minecraft:cyan_glazed_terracotta = #0FA4A4
+minecraft:purple_glazed_terracotta = #A354E1
+minecraft:blue_glazed_terracotta = #3A43AB
+minecraft:brown_glazed_terracotta = #84542F
+minecraft:green_glazed_terracotta = #5E7D0F
+minecraft:red_glazed_terracotta = #B12A21
+minecraft:black_glazed_terracotta = #440707
+//======Stained Glass==========
+minecraft:glass = #F8F9FA
+minecraft:stained_glass[color:white] = #FBFBFC
+minecraft:stained_glass[color:orange] = #EBC7AA
+minecraft:stained_glass[color:magenta] = #DBB3EC
+minecraft:stained_glass[color:light_blue] = #BDD1EC
+minecraft:stained_glass[color:yellow] = #F1F1AA
+minecraft:stained_glass[color:lime] = #C7E7A0
+minecraft:stained_glass[color:pink] = #F5C7D8
+minecraft:stained_glass[color:gray] = #B3B3B4
+minecraft:stained_glass[color:silver] = #D1D1D2
+minecraft:stained_glass[color:cyan] = #B3C7D2
+minecraft:stained_glass[color:purple] = #C7ADDC
+minecraft:stained_glass[color:blue] = #A9B3DC
+minecraft:stained_glass[color:brown] = #BDB3AA
+minecraft:stained_glass[color:green] = #BDC7AA
+minecraft:stained_glass[color:red] = #C2B0B1
+minecraft:stained_glass[color:black] = #9F9FA0
+minecraft:tinted_glass = #9E9E9F
+//======stained Glass Pane==========
+minecraft:glass_pane = #C2DAD9
+minecraft:stained_glass_pane[color:white] = #DBE0E3
+minecraft:stained_glass_pane[color:orange] = #CFB7A2
+minecraft:stained_glass_pane[color:magenta] = #C2A7D6
+minecraft:stained_glass_pane[color:light_blue] = #ABC0D7
+minecraft:stained_glass_pane[color:yellow] = #D2D8A2
+minecraft:stained_glass_pane[color:lime] = #B2D099
+minecraft:stained_glass_pane[color:pink] = #D7B7C7
+minecraft:stained_glass_pane[color:gray] = #A2A7AA
+minecraft:stained_glass_pane[color:silver] = #BABFC2
+minecraft:stained_glass_pane[color:cyan] = #A2B7C2
+minecraft:stained_glass_pane[color:purple] = #B2A3CA
+minecraft:stained_glass_pane[color:blue] = #9AA7CB
+minecraft:stained_glass_pane[color:brown] = #ABA7A2
+minecraft:stained_glass_pane[color:green] = #ABB7A2
+minecraft:stained_glass_pane[color:red] = #B08B8E
+minecraft:stained_glass_pane[color:black] = #92979A
+//======Shulker Box==========
+minecraft:undyed_shulker_box = #9F719F
+minecraft:shulker_box[color:white] = #DDE2E3
+minecraft:shulker_box[color:orange] = #F57507
+minecraft:shulker_box[color:magenta] = #BB3DB0
+minecraft:shulker_box[color:light_blue] = #38B4DB
+minecraft:shulker_box[color:yellow] = #FCC81F
+minecraft:shulker_box[color:lime] = #70BC10
+minecraft:shulker_box[color:pink] = #F38CAB
+minecraft:shulker_box[color:gray] = #3C4146
+minecraft:shulker_box[color:silver] = #8D8D84
+minecraft:shulker_box[color:cyan] = #0F8893
+minecraft:shulker_box[color:purple] = #7426A9
+minecraft:shulker_box[color:blue] = #30329C
+minecraft:shulker_box[color:brown] = #744724
+minecraft:shulker_box[color:green] = #546D15
+minecraft:shulker_box[color:red] = #9D201D
+minecraft:shulker_box[color:black] = #1A1A1F
+//-------------Woods-----------------------------
+//======Azelea==========
+minecraft:azalea = #50692C
+minecraft:flowering_azalea = #9E5088
+minecraft:azalea_leaves = #70922D
+minecraft:azelea_leaves_flowered = #BA62CE
+//======Oak==========
+minecraft:wood[wood_type:oak,stripped_bit:0] = #745A36
+minecraft:wood[wood_type:oak,stripped_bit:1] = #C09D62
+minecraft:log[old_log_type:oak] = #745A36
+minecraft:stripped_oak_log = #C09D62
+minecraft:planks[wood_type:oak] = #9F844D
+minecraft:wooden_slab[wood_type:oak] = #9F844D
+minecraft:double_wooden_slab[wood_type:oak] = #9F844D
+minecraft:fence[wood_type:oak] = #9F844D
+minecraft:wooden_door = #9F844D
+minecraft:trapdoor = #9F844D
+minecraft:oak_stairs = #9F844D
+minecraft:fence_gate = #9F844D
+minecraft:leaves[old_leaf_type:oak] = #45B017
+//======Spruce==========
+minecraft:wood[wood_type:spruce,stripped_bit:0] = #3B2713
+minecraft:wood[wood_type:spruce,stripped_bit:1] = #795B37
+minecraft:log[old_log_type:spruce] = #3B2713
+minecraft:stripped_spruce_log = #795B37
+minecraft:planks[wood_type:spruce] = #886539
+minecraft:wooden_slab[wood_type:spruce] = #886539
+minecraft:double_wooden_slab[wood_type:spruce] = #886539
+minecraft:fence[wood_type:spruce] = #886539
+minecraft:spruce_door = #886539
+minecraft:spruce_trapdoor = #886539
+minecraft:spruce_stairs = #886539
+minecraft:spruce_fence_gate = #886539
+minecraft:leaves[old_leaf_type:spruce] = #456D45
+//======Birch==========
+minecraft:wood[wood_type:birch,stripped_bit:0] = #DED3D5
+minecraft:wood[wood_type:birch,stripped_bit:1] = #CDB87D
+minecraft:log[old_log_type:birch] = #DED3D5
+minecraft:stripped_birch_log = #CDB87D
+minecraft:planks[wood_type:birch] = #D7CB8D
+minecraft:wooden_slab[wood_type:birch] = #D7CB8D
+minecraft:double_wooden_slab[wood_type:birch] = #D7CB8D
+minecraft:fence[wood_type:birch] = #D7CB8D
+minecraft:birch_door = #D7CB8D
+minecraft:birch_trapdoor = #D7CB8D
+minecraft:birch_stairs = #D7CB8D
+minecraft:birch_fence_gate = #D7CB8D
+minecraft:leaves[old_leaf_type:birch] = #5A753B
+//======Jungle==========
+minecraft:wood[wood_type:jungle,stripped_bit:0] = #684E20
+minecraft:wood[wood_type:jungle,stripped_bit:1] = #B4865A
+minecraft:log[old_log_type:jungle] = #684E20
+minecraft:stripped_jungle_log = #B4865A
+minecraft:planks[wood_type:jungle] = #BF8E6B
+minecraft:wooden_slab[wood_type:jungle] = #BF8E6B
+minecraft:double_wooden_slab[wood_type:jungle] = #BF8E6B
+minecraft:fence[wood_type:jungle] = #BF8E6B
+minecraft:jungle_door = #BF8E6B
+minecraft:jungle_trapdoor = #BF8E6B
+minecraft:jungle_stairs = #BF8E6B
+minecraft:jungle_fence_gate = #BF8E6B
+minecraft:leaves[old_leaf_type:jungle] = #398F13
+//======Acacia==========
+minecraft:wood[wood_type:acacia,stripped_bit:0] = #5B554D
+minecraft:wood[wood_type:acacia,stripped_bit:1] = #B25B3B
+minecraft:log2[new_log_type:acacia] = #5B554D
+minecraft:stripped_acacia_log = #B25B3B
+minecraft:planks[wood_type:acacia] = #AD5D32
+minecraft:wooden_slab[wood_type:acacia] = #AD5D32
+minecraft:double_wooden_slab[wood_type:acacia] = #AD5D32
+minecraft:fence[wood_type:acacia] = #AD5D32
+minecraft:acacia_door = #AD5D32
+minecraft:acacia_trapdoor = #AD5D32
+minecraft:acacia_stairs = #AD5D32
+minecraft:acacia_fence_gate = #AD5D32
+minecraft:leaves2[new_leaf_type:acacia] = #43AA16
+//======Dark Oak==========
+minecraft:wood[wood_type:dark_oak,stripped_bit:0] = #3F311D
+minecraft:wood[wood_type:dark_oak,stripped_bit:1] = #483722
+minecraft:log2[new_log_type:dark_oak] = #3F311D
+minecraft:stripped_dark_oak_log = #483722
+minecraft:planks[wood_type:dark_oak] = #53381A
+minecraft:wooden_slab[wood_type:dark_oak] = #53381A
+minecraft:double_wooden_slab[wood_type:dark_oak] = #53381A
+minecraft:fence[wood_type:dark_oak] = #53381A
+minecraft:dark_oak_door = #53381A
+minecraft:dark_oak_trapdoor = #53381A
+minecraft:dark_oak_stairs = #53381A
+minecraft:dark_oak_fence_gate = #53381A
+minecraft:leaves2[new_leaf_type:dark_oak] = #398F13
+//-------------Stones-----------------------------
+//======Stone==========
+minecraft:smooth_stone[] = #8d8c8c
+minecraft:double_stone_slab[stone_slab_type:smooth_stone] = #9E9E9E
+minecraft:monster_egg[monster_egg_stone_type:stone] = #696969
+minecraft:stonebrick[stone_brick_type:default] = #9E9E9E
+minecraft:stonebrick[stone_brick_type:mossy] = #70805a
+minecraft:stonebrick[stone_brick_type:chiseled] = #8a8989
+minecraft:stonebrick[stone_brick_type:cracked] = #979090
+minecraft:stonebrick[stone_brick_type:smooth] = #9E9E9E
+minecraft:double_stone_slab4[stone_slab_type_4:stone] = #808080
+minecraft:normal_stone_stairs = #808080
+minecraft:stone_slab[stone_slab_type:stone_brick] = #9E9E9E
+minecraft:double_stone_slab[stone_slab_type:stone_brick] = #9E9E9E
+minecraft:stone_brick_stairs = #9E9E9E
+minecraft:mossy_cobblestone = #88a063
+minecraft:double_stone_slab2[stone_slab_type_2:mossy_cobblestone] = #88a063
+minecraft:mossy_cobblestone_stairs = #88a063
+minecraft:cobblestone_wall[wall_block_type:mossy_cobblestone] = #88a063
+minecraft:stone_slab2[stone_slab_type_2:mossy_cobblestone] = #88a063
+minecraft:cobblestone_wall[wall_block_type:stone_brick] = #9E9E9E
+minecraft:cobblestone = #A7A7A7
+minecraft:cobblestone_wall[wall_block_type:cobblestone] = #A7A7A7
+minecraft:double_stone_slab[stone_slab_type:cobblestone] = #A7A7A7
+minecraft:stone_stairs = #A7A7A7
+minecraft:cobblestone_wall[wall_block_type:stone_brick] = #A7A7A7
+minecraft:mossy_stone_brick_stairs = #70805a
+minecraft:double_stone_slab4[stone_slab_type_4:mossy_stone_brick] = #70805a
+minecraft:cobblestone_wall[wall_block_type:mossy_stone_brick] = #70805a
+minecraft:stone_slab4[stone_slab_type_4:mossy_stone_brick] = #70805a
+minecraft:stone[stone_type:stone] = #808080
+minecraft:stone[stone_type:andesite] = #888383
+minecraft:cobblestone_wall[wall_block_type:andesite] = #888383
+minecraft:andesite_stairs = #888383
+minecraft:double_stone_slab3[stone_slab_type_3:andesite] = #888383
+minecraft:stone[stone_type:andesite_smooth] = #9ca09e
+minecraft:double_stone_slab3[stone_slab_type_3:polished_andesite] = #9ca09e
+minecraft:polished_andesite_stairs = #9ca09e
+minecraft:stone[stone_type:diorite_smooth] = #eeedee
+minecraft:double_stone_slab3[stone_slab_type_3:polished_diorite] = #DAD9DA
+minecraft:stone_slab3[stone_slab_type_3:polished_diorite] = #DAD9DA
+minecraft:polished_diorite_stairs = #DAD9DA
+minecraft:stone[stone_type:diorite] = #e7e6e7
+minecraft:double_stone_slab3[stone_slab_type_3:diorite] = #cfcfcf
+minecraft:diorite_stairs = #cfcfcf
+minecraft:stone_slab3[stone_slab_type_3:diorite] = #cfcfcf
+minecraft:cobblestone_wall[wall_block_type:diorite] = #cfcfcf
+minecraft:stone[stone_type:granite] = #805544
+minecraft:double_stone_slab3[stone_slab_type_3:granite] = #805544
+minecraft:granite_stairs = #805544
+minecraft:cobblestone_wall[wall_block_type:granite] = #805544
+minecraft:stone[stone_type:granite_smooth] = #A06B57
+minecraft:double_stone_slab3[stone_slab_type_3:polished_granite] = #A06B57
+minecraft:polished_granite_stairs = #A06B57
+minecraft:stone_slab3[stone_slab_type_3:polished_granite] = #A06B57
+minecraft:brick_block = #7D4333
+minecraft:double_stone_slab[stone_slab_type:brick] = #7D4333
+minecraft:brick_stairs = #7D4333
+minecraft:cobblestone_wall[wall_block_type:brick] = #7D4333
+minecraft:stone_slab[stone_slab_type:brick] = #7D4333
+//======Red Sand==========
+minecraft:sand[sand_type:red] = #d66d10
+minecraft:red_sandstone[sand_stone_type:default] = #df8638
+minecraft:double_stone_slab2[stone_slab_type_2:red_sandstone] = #C1681C
+minecraft:red_sandstone_stairs = #C1681C
+minecraft:cobblestone_wall[wall_block_type:red_sandstone] = #C1681C
+minecraft:stone_slab2[stone_slab_type_2:red_sandstone] = #C1681C
+minecraft:red_sandstone[sand_stone_type:cut] = #e0863c
+minecraft:double_stone_slab4[stone_slab_type_4:cut_red_sandstone] = #d47b31
+minecraft:stone_slab4[stone_slab_type_4:cut_red_sandstone] = #d47b31
+minecraft:red_sandstone[sand_stone_type:smooth] = #BC661C
+minecraft:double_stone_slab3[stone_slab_type_3:smooth_red_sandstone] = #c96915
+minecraft:stone_slab3[stone_slab_type_3:smooth_red_sandstone] = #c96915
+minecraft:smooth_red_sandstone_stairs = #b46622
+minecraft:red_sandstone[sand_stone_type:heiroglyphs] = #d3792a
+//======Sand==========
+minecraft:sand[sand_type:normal] = #dbcead
+minecraft:sandstone[sand_stone_type:default] = #E4DCB1
+minecraft:stone_slab[stone_slab_type:sandstone] = #DBD3A4
+minecraft:double_stone_slab[stone_slab_type:sandstone] = #DBD3A4
+minecraft:sandstone_stairs = #DBD3A4
+minecraft:cobblestone_wall[wall_block_type:sandstone] = #DBD3A4
+minecraft:sandstone[sand_stone_type:cut] = #DBD3A4
+minecraft:stone_slab4[stone_slab_type_4:cut_sandstone] = #D6C597
+minecraft:double_stone_slab4[stone_slab_type_4:cut_sandstone] = #D6C597
+minecraft:sandstone[sand_stone_type:smooth] = #D6C597
+minecraft:stone_slab2[stone_slab_type_2:smooth_sandstone] = #c2b181
+minecraft:double_stone_slab2[stone_slab_type_2:smooth_sandstone] = #c2b181
+minecraft:smooth_sandstone_stairs = #c2b181
+minecraft:sandstone[sand_stone_type:heiroglyphs] = #e0d3b4
+//======Quartz==========
+minecraft:quartz_block[chisel_type:default] = #E9E1DB
+minecraft:stone_slab[stone_slab_type:quartz] = #E9E1DB
+minecraft:double_stone_slab[stone_slab_type:quartz] = #E9E1DB
+minecraft:quartz_stairs = #E9E1DB
+minecraft:quartz_block[chisel_type:lines] = #E6DED7
+minecraft:quartz_bricks = #E5DDD6
+minecraft:quartz_block[chisel_type:smooth] = #EBE3DB
+minecraft:stone_slab4[stone_slab_type_4:smooth_quartz] = #EBE3DB
+minecraft:double_stone_slab4[stone_slab_type_4:smooth_quartz] = #EBE3DB
+minecraft:smooth_quartz_stairs = #EBE3DB
+minecraft:quartz_block[chisel_type:chiseled] = #E0DBCF
+//======Prismarine==========
+minecraft:prismarine[prismarine_block_type:default] = #5AA18A
+minecraft:stone_slab2[stone_slab_type_2:prismarine_rough] = #5AA18A
+minecraft:double_stone_slab2[stone_slab_type_2:prismarine_rough] = #5AA18A
+minecraft:prismarine_stairs = #5AA18A
+minecraft:cobblestone_wall[wall_block_type:prismarine] = #5AA18A
+//====
+minecraft:prismarine[prismarine_block_type:bricks] = #6AB4AB
+minecraft:stone_slab2[stone_slab_type_2:prismarine_brick] = #6AB4AB
+minecraft:double_stone_slab2[stone_slab_type_2:prismarine_brick] = #6AB4AB
+minecraft:prismarine_bricks_stairs = #6AB4AB
+//====
+minecraft:prismarine[prismarine_block_type:dark] = #3D7A63
+minecraft:stone_slab2[stone_slab_type_2:prismarine_dark] = #3D7A63
+minecraft:double_stone_slab2[stone_slab_type_2:prismarine_dark] = #3D7A63
+minecraft:dark_prismarine_stairs = #3D7A63
+//======End Blocks==========
+minecraft:end_stone = #D6DB95
+minecraft:end_bricks = #DEE5A6
+minecraft:stone_slab3[stone_slab_type_3:end_stone_brick] = #DEE5A6
+minecraft:double_stone_slab3[stone_slab_type_3:end_stone_brick] = #DEE5A6
+minecraft:end_brick_stairs = #DEE5A6
+minecraft:cobblestone_wall[wall_block_type:end_brick] = #DEE5A6
+minecraft:purpur_block[chisel_type:default] = #AF83AF
+minecraft:stone_slab2[stone_slab_type_2:purpur] = #AF83AF
+minecraft:double_stone_slab2[stone_slab_type_2:purpur] = #AF83AF
+minecraft:purpur_stairs = #AF83AF
+minecraft:purpur_block[chisel_type:lines] = #8c6d8d
+//======Nether Blocks========
+minecraft:red_nether_brick = #580F13
+minecraft:stone_slab2[stone_slab_type_2:red_nether_brick] = #580F13
+minecraft:double_stone_slab2[stone_slab_type_2:red_nether_brick] = #580F13
+minecraft:red_nether_brick_stairs = #580F13
+minecraft:cobblestone_wall[wall_block_type:red_nether_brick] = #580F13
+//===
+minecraft:nether_brick = #2B1719
+minecraft:stone_slab[stone_slab_type:nether_brick] = #2B1719
+minecraft:double_stone_slab[stone_slab_type:nether_brick] = #2B1719
+minecraft:nether_brick_stairs = #2B1719
+minecraft:cobblestone_wall[wall_block_type:nether_brick] = #2B1719
+minecraft:chiseled_nether_bricks = #341B1F
+minecraft:cracked_nether_bricks = #1B0F11
+minecraft:nether_brick_fence = #241115
+//======Blackstone========
+minecraft:polished_blackstone_bricks = #2e2626
+minecraft:polished_blackstone_brick_slab = #2e2626
+minecraft:polished_blackstone_brick_double_slab = #2e2626
+minecraft:polished_blackstone_brick_stairs = #2e2626
+minecraft:polished_blackstone_brick_wall = #2e2626
+minecraft:cracked_polished_blackstone_bricks = #221d1b
+//====
+minecraft:polished_blackstone = #2d2a31
+minecraft:polished_blackstone_slab = #2d2a31
+minecraft:polished_blackstone_double_slab = #2d2a31
+minecraft:polished_blackstone_stairs = #2d2a31
+minecraft:polished_blackstone_wall = #2d2a31
+minecraft:chiseled_polished_blackstone = #2d2a31
+//====
+minecraft:blackstone = #2c2835
+minecraft:blackstone_slab = #2c2835
+minecraft:blackstone_double_slab = #2c2835
+minecraft:blackstone_stairs = #2c2835
+minecraft:blackstone_wall = #2c2835
+minecraft:gilded_blackstone = #44432b
+//======Deepslate========
+minecraft:deepslate = #686868
+//====
+minecraft:cobbled_deepslate = #646469
+minecraft:cobbled_deepslate_slab = #646469
+minecraft:cobbled_deepslate_double_slab = #646469
+minecraft:cobbled_deepslate_stairs = #646469
+minecraft:cobbled_deepslate_wall = #646469
+//====
+minecraft:deepslate_bricks = #535353
+minecraft:deepslate_brick_slab = #535353
+minecraft:deepslate_brick_double_slab = #535353
+minecraft:deepslate_brick_stairs = #535353
+minecraft:deepslate_brick_wall = #535353
+minecraft:cracked_deepslate_bricks = #494848
+//====
+minecraft:deepslate_tiles = #535353
+minecraft:deepslate_tile_slab = #535353
+minecraft:deepslate_tile_double_slab = #535353
+minecraft:deepslate_tile_stairs = #535353
+minecraft:deepslate_tile_wall = #535353
+minecraft:cracked_deepslate_tiles = #413f3f
+//====
+minecraft:polished_deepslate = #646363
+minecraft:polished_deepslate_slab = #646363
+minecraft:polished_deepslate_double_slab = #646363
+minecraft:polished_deepslate_stairs = #646363
+minecraft:polished_deepslate_wall = #646363
+minecraft:chiseled_deepslate = #464545
+//-------------Copper----------------------------
+minecraft:copper_block = #C97555
+minecraft:cut_copper = #A85A3E
+minecraft:cut_copper_slab = #A85A3E
+minecraft:double_cut_copper_slab = #A85A3E
+minecraft:cut_copper_stairs = #A85A3E
+minecraft:exposed_copper = #A97862
+minecraft:exposed_cut_copper = #807356
+minecraft:exposed_cut_copper_slab = #807356
+minecraft:exposed_double_cut_copper_slab = #807356
+minecraft:exposed_cut_copper_stairs = #807356
+minecraft:weathered_copper = #6C985C
+minecraft:weathered_cut_copper = #6A7245
+minecraft:weathered_cut_copper_slab = #6A7245
+minecraft:weathered_double_cut_copper_slab = #6A7245
+minecraft:weathered_cut_copper_stairs = #6A7245
+minecraft:oxidized_copper = #52A279
+minecraft:oxidized_cut_copper = #336450
+minecraft:oxidized_cut_copper_slab = #336450
+minecraft:oxidized_double_cut_copper_slab = #336450
+minecraft:oxidized_cut_copper_stairs = #336450
+//====waxed====
+minecraft:waxed_copper = #C97555
+minecraft:waxed_cut_copper = #A85A3E
+minecraft:waxed_cut_copper_slab = #A85A3E
+minecraft:waxed_double_cut_copper_slab = #A85A3E
+minecraft:waxed_cut_copper_stairs = #A85A3E
+minecraft:waxed_exposed_copper = #A97862
+minecraft:waxed_exposed_cut_copper = #807356
+minecraft:waxed_exposed_cut_copper_slab = #807356
+minecraft:waxed_exposed_double_cut_copper_slab = #807356
+minecraft:waxed_exposed_cut_copper_stairs = #807356
+minecraft:waxed_weathered_copper = #6C985C
+minecraft:waxed_weathered_cut_copper = #6A7245
+minecraft:waxed_weathered_cut_copper_slab = #6A7245
+minecraft:waxed_weathered_double_cut_copper_slab = #6A7245
+minecraft:waxed_weathered_cut_copper_stairs = #6A7245
+minecraft:waxed_oxidized_copper = #52A279
+minecraft:waxed_oxidized_cut_copper = #336450
+minecraft:waxed_oxidized_cut_copper_slab = #336450
+minecraft:waxed_oxidized_double_cut_copper_slab = #336450
+minecraft:waxed_oxidized_cut_copper_stairs = #336450
+//-------------Other-----------------------------
+minecraft:mossblock = #68792F
+minecraft:grass_path = #beb639
+minecraft:tuff = #898980
+minecraft:smooth_basalt = #4E4A4E
+minecraft:polished_basalt = #757575
+minecraft:basalt = #4E4A4E
+minecraft:slime = #7CC16C
+minecraft:chest = #97702E
+minecraft:flower_pot* = #774332
+minecraft:beehive = #D1B15C
+minecraft:bee_nest = #B5925C
+minecraft:honey_block = #F8CB73
+minecraft:honeycomb_block = #FFC74E
+minecraft:bookshelf = #BE9C61
+minecraft:dripstone_block = #8F7667
+minecraft:calcite = #D0D1CC
+minecraft:soul_soil = #5D4738
+minecraft:soul_sand = #715A4F
+minecraft:amethyst_block = #8E6ACD
+minecraft:budding_amethyst = #44277E
+minecraft:bedrock = #333333
+minecraft:obsidian = #251D3D
+minecraft:crying_obsidian = #2B115E
+minecraft:sponge[sponge_type:dry] = #C3C14E
+minecraft:sponge[sponge_type:wet] = #A6B34A
+
+//=====Ores======
+minecraft:nether_gold_ore = #955224
+minecraft:quartz_ore = #AC9C92
+minecraft:netherite_block = #4B464A
+minecraft:coal_block = #090909
+minecraft:gold_block = #FBD842
+minecraft:iron_block = #E2E2E2
+minecraft:emerald_block = #22C658
+minecraft:diamond_block = #64EFE2
+minecraft:lapis_block = #1D4487
+minecraft:redstone_block = #720E00
+minecraft:raw_copper_block = #8C4A30
+minecraft:raw_gold_block = #CF931C
+minecraft:raw_iron_block = #AA8F74
+minecraft:ancient_debris = #513A32
+minecraft:coal_ore = #393937
+minecraft:gold_ore = #CABB3B
+minecraft:iron_ore = #AA8A77
+minecraft:emerald_ore = #0D741F
+minecraft:diamond_ore = #2F9C99
+minecraft:lapis_ore = #385CB0
+minecraft:redstone_ore = #B81515
+minecraft:lit_redstone_ore = #eb1f1f
+minecraft:copper_ore = #AA5F43
+minecraft:deepslate_coal_ore = #2e2e2c
+minecraft:deepslate_gold_ore = #94892a
+minecraft:deepslate_iron_ore = #7a6356
+minecraft:deepslate_emerald_ore = #0a5517
+minecraft:deepslate_diamond_ore = #247774
+minecraft:deepslate_lapis_ore = #294380
+minecraft:deepslate_redstone_ore = #8f1111
+minecraft:lit_deepslate_redstone_ore = #8f1111
+minecraft:deepslate_copper_ore = #854a35
+//====lights=====
+minecraft:shroomlight = #F4AC59
+minecraft:seaLantern = #80B0A4
+minecraft:magma = #CB5007
+minecraft:glowstone = #CA8452
+
+//-------------Coral-----------------------------
+minecraft:coral_block[coral_color:blue,dead_bit:0] = #2143A4
+minecraft:coral_block[coral_color:pink,dead_bit:0] = #BF4692
+minecraft:coral_block[coral_color:purple,dead_bit:0] = #A51DA5
+minecraft:coral_block[coral_color:red,dead_bit:0] = #A4222F
+minecraft:coral_block[coral_color:yellow,dead_bit:0] = #EDEC4C
+minecraft:coral[coral_color:blue,dead_bit:0] = #314FDD
+minecraft:coral[coral_color:pink,dead_bit:0] = #D962A3
+minecraft:coral[coral_color:purple,dead_bit:0] = #C819BA
+minecraft:coral[coral_color:red,dead_bit:0] = #C62A37
+minecraft:coral[coral_color:yellow,dead_bit:0] = #BEA035
+minecraft:coral_fan[coral_color:blue] = #3C85E5
+minecraft:coral_fan[coral_color:pink] = #E47EB9
+minecraft:coral_fan[coral_color:purple] = #CD45BF
+minecraft:coral_fan[coral_color:red] = #E23F36
+minecraft:coral_fan[coral_color:yellow] = #D5CB3E
+minecraft:coral_fan_hang[coral_hang_type_bit:0,dead_bit:0] = #3C85E5
+minecraft:coral_fan_hang[coral_hang_type_bit:1,dead_bit:0] = #E47EB9
+minecraft:coral_fan_hang2[coral_hang_type_bit:0,dead_bit:0] = #CD45BF
+minecraft:coral_fan_hang2[coral_hang_type_bit:1,dead_bit:0] = #E23F36
+minecraft:coral_fan_hang3[coral_hang_type_bit:0,dead_bit:0] = #D5CB3E
+minecraft:coral_fan_hang3[coral_hang_type_bit:1,dead_bit:0] = #D5CB3E
+//-------------Nether Items-----------------------------
+//=======Crimson=============
+minecraft:crimson_slab = #84324E
+minecraft:crimson_double_slab = #84324E
+minecraft:crimson_stairs = #84324E
+minecraft:crimson_planks = #84324E
+minecraft:crimson_fence = #84324E
+minecraft:crimson_fence_gate = #84324E
+minecraft:crimson_door = #84324E
+minecraft:crimson_trapdoor = #84324E
+minecraft:crimson_nylium = #80433F
+minecraft:crimson_stem = #4F1F2B
+minecraft:nether_wart_block = #A41D20
+minecraft:stripped_crimson_stem = #9E355A
+minecraft:crimson_hyphae = #4F1F2B
+minecraft:stripped_crimson_hyphae = #9E355A
+//========Warped=============
+minecraft:warped_slab = #007877
+minecraft:warped_double_slab = #007877
+minecraft:warped_stairs = #007877
+minecraft:warped_planks = #007877
+minecraft:warped_fence = #007877
+minecraft:warped_fence_gate = #007877
+minecraft:warped_door = #007877
+minecraft:warped_trapdoor = #007877
+minecraft:warped_nylium = #3E6B51
+minecraft:warped_wart_block = #177278
+minecraft:nether_sprouts = #84D7BE
+minecraft:warped_stem = #30756E
+minecraft:stripped_warped_stem = #009492
+minecraft:warped_hyphae = #30756E
+minecraft:stripped_warped_hyphae = #009492
+//=========Other=============
+minecraft:twisting_vines = #129C84
+minecraft:weeping_vines = #D0420E
+minecraft:nether_wart = #A41D20
+
+
+
+
